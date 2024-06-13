@@ -256,3 +256,172 @@ header 영역 - 로고, 메인메뉴
     font-size: 25px;
     text-align: center;
 }
+
+
+
+@media screen and (max-width: 1024px) {
+    #header {
+        height: 110px;
+    }
+    #logo {
+        /* 로고를 가운데로 이동 */
+        left: 50%;
+        transform: translateX(-50%);
+        top: 20px;
+        font-size: 30px;
+    }
+    #navmenu {
+        /* 네비게이션 메뉴를 가운데로 이동 */
+        left: 50%;
+        width: 70%;
+        transform: translateX(-50%);
+        bottom: 12px;
+        padding: 0;
+        justify-content: center;
+    }
+    #main-container {
+        width: 90%;
+        padding-top: 150px;
+    }
+    #main-text {
+        font-size: 18px;
+    }
+    #projects {
+        padding-top: 80px;
+    }
+    #copyright {
+        padding-top: 40px;
+    }
+    #main1 {
+        left: 0px;
+        text-align: center;
+    }
+    #main-text1 {
+        position: absolute;
+        padding: 0%;
+        margin: 0%;
+        left: 50px;
+        top: 200px;
+        color: #ffffff;
+        font-family: "noto";
+        font-size: 24px;
+        font-weight: 700;
+    }
+    #main-text2 {
+        position: absolute;
+        padding: 0%;
+        margin: 0%;
+        left: 50px;
+        top: 230px;
+        color: #ffffff;
+        font-family: "noto";
+        font-size: 35px;
+        font-weight: 700;
+    }
+    #main-text3 {
+        position: absolute;
+        padding: 0%;
+        margin: 0%;
+        left: 50px;
+        top: 280px;
+        color: #ffffff;
+        font-family: "noto";
+        font-size: 11px;
+        font-weight: 300;
+    }
+    .project-title {
+        font-family: "noto";
+        font-size: 24px;
+        font-weight: 600;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 16px;
+    }
+    .project-description {
+        font-family: "noto";
+        font-size: 18px;
+        font-weight: 600;
+        margin: 0;
+        padding: 0;
+    }
+    #main1 {
+        position: relative;
+        font-family: "noto";
+        font-weight: 600;
+        font-size: 24px;
+        text-align: center;
+    }
+    #sub1 {
+        position: relative;
+        font-family: "notoKR";
+        font-weight: 450;
+        font-size: 15px;
+        text-align: center;
+    }
+    #sub2 {
+        position: relative;
+        font-family: "notoKR";
+        font-weight: 450;
+        font-size: 18px;
+        text-align: center;
+        padding-top: 180px;
+    }
+    #sub3 {
+        position: relative;
+        font-family: "notoKR";
+        font-weight: 600;
+        font-size: 24px;
+        text-align: center;
+        padding-top: 180px;
+        padding-bottom: 0%;
+        margin: 0%;
+    }
+    #sub4 {
+        position: relative;
+        font-family: "notoKR";
+        font-weight: 600;
+        font-size: 18px;
+        text-align: center;
+        padding-top: 16px;
+        margin: 0%;
+    }
+    #main1-2 {
+        position: relative;
+        font-family: "notoKR";
+        font-weight: 600;
+        font-size: 24px;
+        text-align: center;
+    }
+    #explanation{
+        font-family: "notoKR";
+        font-weight: 400;
+        font-size: 15px;
+        text-align: center;
+    }
+    #P-main-text1 {
+        position: absolute;
+        padding: 0%;
+        margin: 0%;
+        top: 200px;
+        transform: translateX(-50%);
+        left: 50%;
+        color: #ffffff;
+        font-family: "noto";
+        font-size: 30px;
+        font-weight: 900;
+    }
+    #P-main-text2 {
+        position: absolute;
+        padding: 0%;
+        margin: 0%;
+        top: 250px;
+        transform: translateX(-50%);
+        left: 50%;
+        color: #ffffff;
+        font-family: "noto";
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+
+}
