@@ -1,0 +1,257 @@
+@font-face {
+    font-family: "noto";
+    src: url("fonts/NotoSans-VariableFont_wdth,wght.ttf");
+}
+@font-face {
+    font-family: "notoKR";
+    src: url("fonts/NotoSansKR-VariableFont_wght.ttf");
+}
+html {
+    scroll-behavior: smooth; /* 스크롤 시 부드럽게 이동 */
+}
+body {
+    margin: 0; padding: 0;
+    font-family: "noto";
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+/* -----------------------------------------------------------------------
+header 영역 - 로고, 메인메뉴
+----------------------------------------------------------------------- */
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 129px;
+    background-color: #000000;
+    z-index: 10000;
+}
+#logo {
+    position: absolute;
+    bottom: 20px;
+    left: 65px;
+    font-family: 'noto';
+    font-weight: 700;
+    font-size: 64px;
+}
+#navmenu {
+    display: flex;
+    position: absolute;
+    bottom: 47px;
+    right: 33px;
+    padding-right: 10px;
+}
+#navmenu p {
+    margin: 0 14px;
+}
+#navmenu a {
+    color: #ffffff;
+}
+#navmenu a:link {
+    text-decoration: none;
+}
+#logo a:hover {
+    color: #588dff;
+}
+#navmenu a:hover {
+    text-decoration: underline;
+    color: #588dff;
+}
+
+/* -----------------------------------------------------------------------
+본문 영역
+----------------------------------------------------------------------- */
+
+#main-container {
+    position: relative;
+    width: 960px;
+    margin: 0 auto; /* 박스(#main-container)를 뷰포트의 가로 방향 가운데로 정렬 */
+    padding-top: 200px;
+    padding-bottom: 60px;
+    /*background-color: bisque;*/
+}
+#featured-image img {
+    position: relative;
+    width: 100%;
+    padding-top: 120px;
+}
+#main-text1 {
+    position: absolute;
+    padding: 0%;
+    margin: 0%;
+    left: 340px;
+    top: 404px;
+    color: #ffffff;
+    font-family: "noto";
+    font-size: 48px;
+    font-weight: 700;
+}
+#main-text2 {
+    position: absolute;
+    padding: 0%;
+    margin: 0%;
+    left: 340px;
+    top: 469px;
+    color: #ffffff;
+    font-family: "noto";
+    font-size: 64px;
+    font-weight: 700;
+}
+#main-text3 {
+    position: absolute;
+    padding: 0%;
+    margin: 0%;
+    left: 340px;
+    top: 556px;
+    color: #ffffff;
+    font-family: "noto";
+    font-size: 24px;
+    font-weight: 300;
+}
+
+#about-main-container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto; /* 박스(#main-container)를 뷰포트의 가로 방향 가운데로 정렬 */
+    padding-top: 200px;
+    padding-bottom: 60px;
+    /*background-color: bisque;*/
+}
+#main1 {
+    position: relative;
+    font-family: "noto";
+    font-weight: 600;
+    font-size: 48px;
+    left: 340px;
+}
+#sub1 {
+    position: relative;
+    font-family: "notoKR";
+    font-weight: 450;
+    font-size: 24px;
+    text-align: center;
+}
+#sub2 {
+    position: relative;
+    font-family: "notoKR";
+    font-weight: 450;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 180px;
+}
+#sub3 {
+    position: relative;
+    font-family: "notoKR";
+    font-weight: 600;
+    font-size: 48px;
+    text-align: center;
+    padding-top: 180px;
+    padding-bottom: 0%;
+    margin: 0%;
+}
+#sub4 {
+    position: relative;
+    font-family: "notoKR";
+    font-weight: 600;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 16px;
+    margin: 0%;
+}
+
+
+
+
+#projects {
+    position: relative;
+    width: 100%;
+    padding-top: 160px;
+}
+.project-container {
+    position: relative;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.project-container > img {
+    width: 100%;
+}
+.project-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #74efff44;
+    opacity: 0.0;
+    display: flex;
+    flex-direction: column; /* 아이템이 세로 방향으로 쌓이는 flexbox */
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s; /* css 속성값이 변하는 경우 애니메이션 처리 */
+}
+.project-container:hover .project-overlay {
+    opacity: 0.85;
+}
+.project-title {
+    font-family: "noto";
+    font-size: 48px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 16px;
+}
+.project-description {
+    font-family: "noto";
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+#copyright {
+    padding-top: 300px;
+    padding-bottom: 84px;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+#P-main-text1 {
+    position: absolute;
+    padding: 0%;
+    margin: 0%;
+    margin: 0 auto;
+    top: 596px;
+    left: 526px;
+    color: #ffffff;
+    font-family: "noto";
+    font-size: 128px;
+    font-weight: 900;
+}
+#P-main-text2 {
+    position: absolute;
+    padding: 0%;
+    margin: 0%;
+    left: 858px;
+    top: 847px;
+    color: #ffffff;
+    font-family: "noto";
+    font-size: 48px;
+    font-weight: 700;
+}
+#main1-2 {
+    position: relative;
+    font-family: "notoKR";
+    font-weight: 600;
+    font-size: 48px;
+    text-align: center;
+}
+#explanation{
+    font-family: "notoKR";
+    font-weight: 400;
+    font-size: 32px;
+}
