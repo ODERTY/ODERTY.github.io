@@ -253,5 +253,6 @@ header 영역 - 로고, 메인메뉴
 #explanation{
     font-family: "notoKR";
     font-weight: 400;
-    font-size: 32px;
+    font-size: 25px;
+    text-align: center;
 }
